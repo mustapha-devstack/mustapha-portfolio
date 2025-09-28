@@ -5,7 +5,8 @@ import { Github, Twitter, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full flex flex-col items-center justify-center py-10 bg-gradient-to-br from-gray-900 via-black to-gray-800">
+    <footer className="relative w-full flex flex-col items-center justify-center py-10
+     bg-gradient-to-br from-gray-900 via-black to-gray-800">
       {/* Glass Container */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -58,7 +59,7 @@ export default function Footer() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-sm text-gray-400"
         >
-          © {new Date().getFullYear()} Your Name. All Rights Reserved.
+          © {new Date().getFullYear()} Mustapha Kasim. All Rights Reserved.
         </motion.p>
       </motion.div>
     </footer>
